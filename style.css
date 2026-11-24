@@ -1,0 +1,10 @@
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#111;overflow:hidden;font-family:'Pixelify Sans',monospace;color:#fff}
+canvas{position:fixed;inset:0;width:100%;height:100%}
+#hud{position:fixed;top:8px;left:8px;right:8px;pointer-events:none;font-size:18px;text-shadow:2px 2px #000}
+.bar{height:10px;background:#333;border:2px solid #000;margin:2px 0}.bar i{display:block;height:100%}
+#ui{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.modal{pointer-events:auto;background:#1d2433;border:4px solid #fff;padding:16px;width:min(760px,96vw);max-height:90vh;overflow:auto;text-align:center}
+button{font:inherit;background:#3b5bdb;color:#fff;border:3px solid #fff;padding:6px 12px;margin:4px;cursor:pointer}button:hover{background:#5c7cfa}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:6px}
+.cell{border:2px solid #556;padding:2px;font-size:12px;background:#0006;cursor:pointer}.cell.own{border-color:#ffd43b}.cell.sh{border-color:#f783ac}
+.opt{display:block;width:100%;text-align:left}
